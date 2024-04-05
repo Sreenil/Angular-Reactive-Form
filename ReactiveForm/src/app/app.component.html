@@ -1,0 +1,21 @@
+<h1>Books</h1>
+<div>
+  <form [formGroup]="form">
+    <label>Book Name</label><br>
+    <input type="text" formControlName="Book_Name"><br>
+    <label>Author</label><br>
+    <input type="text" formControlName="Author"><br>
+    <label>Price</label><br>
+    <input type="text" formControlName="Price"><br>
+    <label>Genre</label><br>
+    <input type="text" formControlName="Genre"><br>
+    <label>Published Date</label><br>
+    <input type="text" formControlName="Published_Date"><br>
+    <label>Country</label><br>
+    <input type="text" formControlName="Country"><br>
+    <label>Description</label><br>
+    <input type="text" formControlName="Description"><br>
+
+    <button type="submit" (click)="submit()">Add Book</button>
+  </form>
+</div>

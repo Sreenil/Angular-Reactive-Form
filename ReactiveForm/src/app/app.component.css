@@ -1,0 +1,39 @@
+h1
+{
+    text-align: center;
+}
+
+div
+{
+    background-color: aqua;
+    width: 40%;
+    margin: auto;
+    height: 500px;
+}
+
+label
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+input
+{
+    margin-left: 100px;
+    border-radius: 50px;
+    width: 300px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+button
+{
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
